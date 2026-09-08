@@ -169,8 +169,6 @@
     "files": [
       "main.js",
       "client-settings-store.js",
-      "google-login.js",
-      "client_secret_*.json",
       "acceleration.js",
       "gateway-runtime.js",
       "home-resolve.js",

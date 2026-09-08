@@ -55,7 +55,7 @@
       <div class="window-controls">
         <button class="window-btn minimize" id="win-btn-minimize" title="最小化"></button>
         <button class="window-btn maximize" id="win-btn-maximize" title="最大化/还原"></button>
-        <button class="window-btn close" id="win-btn-close" title="退出并缩入托盘"></button>
+        <button class="window-btn close" id="win-btn-close" title="退出"></button>
       </div>
     </header>
 
@@ -1649,22 +1649,6 @@
             <div style="display: flex; gap: 10px; align-items: center;">
               <button type="button" class="btn-primary" id="btn-add-qqbot-account" data-i18n="comm.qq.add" style="width: auto; padding: 0 16px; font-size: 12px; height: 32px; border-radius: 6px; margin-top: 0; background: linear-gradient(135deg, var(--accent-color), #4f46e5); border: none; font-weight: 600; cursor: pointer;">
                 + 添加 QQ机器人绑定账号
-              </button>
-            </div>
-          </div>
-
-          <!-- 4. Google 账号登录 -->
-          <div class="form-group-section" style="width: 100%; margin-bottom: 24px;">
-            <h3 style="border-left: 3px solid var(--accent-color); padding-left: 10px;">🔐 Google 账号登录</h3>
-            <p style="font-size: 11px; color: var(--text-secondary); margin-bottom: 12px; margin-top: -6px;">通过 Google OAuth 登录绑定您的 Google 账号，用于身份认证与个性化服务。</p>
-
-            <div id="google-account-container" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; width: 100%;">
-              <!-- 动态渲染的 Google 账号卡片 -->
-            </div>
-
-            <div style="display: flex; gap: 10px; align-items: center;">
-              <button type="button" class="btn-primary" id="google-login-btn" style="width: auto; padding: 0 16px; font-size: 12px; height: 32px; border-radius: 6px; margin-top: 0; background: linear-gradient(135deg, var(--accent-color), #4f46e5); border: none; font-weight: 600; cursor: pointer; color: white;">
-                🔑 Google 登录
               </button>
             </div>
           </div>
