@@ -4806,7 +4806,8 @@ function createWindow(existingSplash) {
     mainWindow.on('close', (event) => {
         if (!isQuitting) {
             event.preventDefault();
-            requestAppQuit();
+            mainWindow.hide();
+            showNotification('Nexora Agent 已收起', '窗口已关闭，服务仍在托盘后台运行。彻底退出请右键托盘图标选择「退出应用」。');
         }
     });
 
